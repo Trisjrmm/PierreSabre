@@ -7,9 +7,9 @@ public class HistoireTP4 {
 		Commercant marco = new Commercant("Marco", 15);
 		Yakuza yaku = new Yakuza("Yaku Le Noir", "Warsong", 30);
 		Ronin roro = new Ronin("Roro", 60);
-		roro.direBonjour();
-		roro.donner(marco);
 		
+		roro.parler("Je t'ai retrouvé vermine, tu vas payer pour ce que tu as fait à ce pauvre marchand!");
+		roro.provoquer(yaku);
 
 	}
 }
