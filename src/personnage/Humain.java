@@ -44,7 +44,7 @@ public class Humain {
 		}
 	}
 	
-	public void gagnerArgent(int gain) {
+	protected void gagnerArgent(int gain) {
 		argent += gain;
 	}
 	 
