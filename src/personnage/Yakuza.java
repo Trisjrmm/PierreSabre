@@ -38,4 +38,10 @@ public class Yakuza extends Humain{
 		parler("Ce ronin pensait vraiment battre " + getNom() + " du clan de " + clan + " ? Je l'ai dépouillé de ses " + gain +" sous.");
 	}
 	
+	@Override
+	public void direBonjour() {
+		parler("Bonjour ! Je m'appelle " + getNom() + " et j'aime boire du " + getBoisson() + ".");
+		parler("Mon clan est celui de " + clan + ".");
+	}
+	
 }

@@ -6,7 +6,7 @@ public class Humain {
 	private int argent;
 	protected int nbConnaissances = 0;
 	protected Humain[] connaissances;
-	private int maxConnaissances = 3; 
+	private int maxConnaissances = 30; 
 	
 	public Humain(String nom, int argent, String boisson) {
 		this.nom = nom;
