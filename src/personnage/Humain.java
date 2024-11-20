@@ -91,7 +91,7 @@ public class Humain {
 				System.out.println(connaissances[i].getNom());
 			} else {
 				System.out.print(connaissances[i].getNom() + ", ");
-			}
+			}		
 		}
 	}
 }

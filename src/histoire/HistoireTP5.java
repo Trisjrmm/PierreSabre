@@ -9,7 +9,7 @@ public class HistoireTP5 {
 		Commercant kumi = new Commercant("Kumi", 10);
 		Yakuza yaku = new Yakuza("Yaku Le Noir", "Warsong", 30);
 		Ronin roro = new Ronin("Roro", 60);
-		Samourai akimoto = new Samourai("Miyamoto", "Akimoto", 80);
+		Samourai akimoto = new Samourai("Miyamoto", "Akimoto", "saké", 80);
 		
 //		marco.fairConnaissanceAvec(roro);
 //		marco.fairConnaissanceAvec(yaku);
